@@ -5,6 +5,8 @@ Accompanying source code and data for the following publication.
 
 Yiping Jin, Leo Wanner, and Alexander Shvets. **[GPT-HateCheck: Can LLMs Write Better Functional Tests for Hate Speech Detection?](https://aclanthology.org/2024.lrec-main.694/)** LREC-COLING 2024. Turin, Italy.
 
+![Overview of our framework](fig1-overview.jpg)
+
 ## 1. Generating Dataset with GPT-3.5
 
 The jupyter notebooks `gpt-3.5-data-generation-[IDENTITY].ipynb` generates the test cases for each identity. Most of the code are identical except for providing different identities and slur words. 
